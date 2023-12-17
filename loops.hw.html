@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>loops homework</title>
+</head>
+
+<body>
+    <h2 style="text-align: center;">For Loops</h2>
+    <script>
+        document.write("For loops" + "<br>" + "<br>")
+        document.write("Ex1:" + "</br>")
+        for (let x = 12; x < 25; x++) {
+            document.write(x + " ")
+        }
+        document.write("</br>")
+        document.write("</br>")
+        document.write("Ex2:" + "</br>")
+        for (let y = 7; y < 32; y += 2) {
+            document.write(y + " ")
+        }
+        document.write("</br>")
+        document.write("</br>")
+        document.write("Ex3:" + "</br>")
+        for (let x = 10; x < 21; x += 2) {
+            document.write(x + " ")
+        }
+        document.write("</br>" + "<br>")
+        document.write("Ex4:" + "</br>")
+        for (let index = 1; index < 46; index++) {
+            document.write(index + " ")
+            if (index%3==0) {
+                document.write("Fizz")
+            }
+            if (index%5==0) {
+                document.write("Buzz")
+            }
+            document.write(","+ " ")
+        }
+        document.write("<br>" + "<br>")
+        document.write("While loops" + "<br>" + "<br>")
+        document.write("Ex1:" + "<br>")
+        let z = 12
+        while (z < 25) {
+            document.write(z++ + " ")
+        }
+        document.write("</br>" + "<br>")
+        document.write("Ex2:" + "<br>")
+        z = 7
+        while (z < 32) {
+            document.write(z + " ")
+            z += 2
+        }
+        document.write("</br>" + "<br>")
+        document.write("Ex3:" + `<br>`)
+        z=10
+        while (z<21) {
+            document.write(z + " ")
+            z += 2
+        }
+        document.write("</br>" + "<br>")
+        document.write("Ex4:" + `<br>`)
+        let a=1
+        while (a<46) {
+            document.write(a + " ")
+            a++
+            if (a%3==0) {
+                document.write("Fizz")
+            }
+            if (a%5==0) {
+                document.write("Buzz")
+            }
+            document.write("," + " ")
+        }
+        
+        
+
+
+    </script>
+
+</body>
+
+</html>
